@@ -10,13 +10,13 @@
 
 | Model | Params | GSM8K Greedy@1 | GSM8K Maj@8 | pass@5 |
 |---|---|---|---|---|
-| Qwen2.5-1.5B base *(our start)* | 1.5B | 47% | — | — |
+| Qwen2.5-1.5B base *(our start, 2-shot CoT prompting)* | 1.5B | 47% | — | — |
 | Qwen2.5-1.5B-Instruct | 1.5B | ~73% | — | — |
 | Qwen2.5-3B-Instruct | 3B | 79.1% | — | — |
 | Llama-3.1-8B-Instruct | 8B | 82.4% | — | — |
 | Qwen2.5-7B-Instruct | 7B | 85.4% | — | — |
 | DeepSeek-R1-Distill-1.5B | 1.5B | ~85% | — | — |
-| **MathReason-1.5B (ours)** | **1.5B** | **65%** | **82%** | **83%** |
+| **MathReason-1.5B (ours)** | **1.5B** | **78%** | **82%** | **83%** |
 
 **Key result:** Our 1.5B model matches Llama-3.1-8B-Instruct (82% Maj@8) at 5× smaller size, using only 31K distillation traces — 25× less than DeepSeek-R1-Distill-1.5B (800K traces).
 
