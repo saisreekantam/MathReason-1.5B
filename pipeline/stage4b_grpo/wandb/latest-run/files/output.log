@@ -1,0 +1,99 @@
+  0%|                                                                                                                                                                                         | 0/600 [00:00<?, ?it/s]Passing `generation_config` together with generation-related arguments=({'disable_compile'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+ 10%|█████████████████▍                                                                                                                                                         | 61/600 [1:41:07<14:37:53, 97.72s/it]Traceback (most recent call last):
+{'loss': '0.09863', 'grad_norm': '0.03573', 'learning_rate': '2.25e-07', 'num_tokens': '1.548e+05', 'completions/mean_length': '1841', 'completions/min_length': '1343', 'completions/max_length': '2048', 'completions/clipped_ratio': '0.6875', 'completions/mean_terminated_length': '971.7', 'completions/min_terminated_length': '728.3', 'completions/max_terminated_length': '1176', 'rewards/reward_fn/mean': '0.1387', 'rewards/reward_fn/std': '0.2826', 'reward': '0.1387', 'reward_std': '0.2826', 'frac_reward_zero_std': '0.3', 'kl': '0.0005201', 'entropy': '0.4877', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '92.47', 'epoch': '0.0008441'}
+{'loss': '0.08266', 'grad_norm': '0.0002781', 'learning_rate': '4.75e-07', 'num_tokens': '3.108e+05', 'completions/mean_length': '1837', 'completions/min_length': '1592', 'completions/max_length': '2048', 'completions/clipped_ratio': '0.7625', 'completions/mean_terminated_length': '535', 'completions/min_terminated_length': '363.4', 'completions/max_terminated_length': '704.9', 'rewards/reward_fn/mean': '0.08625', 'rewards/reward_fn/std': '0.09765', 'reward': '0.08625', 'reward_std': '0.09765', 'frac_reward_zero_std': '0.6', 'kl': '0.0007872', 'entropy': '0.5595', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '101.5', 'epoch': '0.001688'}
+
+  ── Step 25 Monitor ──
+    Pass@1           : 11.0%
+    Clean term rate  : 25.5%  ← RISING? (was ~40% Phase A end)
+    No tag rate      : 74.5%  ← FALLING? (was ~40% Phase A end)
+    Mean reward      : +0.036
+    Mean resp words  : 1160  ← FALLING? (was ~800 Phase A end)
+    ⭐ New best clean_term: 25.5%
+    ⭐ New best pass@1: 11.0%
+{'loss': '0.05697', 'grad_norm': '0.000266', 'learning_rate': '4.997e-07', 'num_tokens': '4.775e+05', 'completions/mean_length': '1974', 'completions/min_length': '1664', 'completions/max_length': '2048', 'completions/clipped_ratio': '0.875', 'completions/mean_terminated_length': '517.8', 'completions/min_terminated_length': '435.7', 'completions/max_terminated_length': '584', 'rewards/reward_fn/mean': '0.0525', 'rewards/reward_fn/std': '0.1782', 'reward': '0.0525', 'reward_std': '0.1782', 'frac_reward_zero_std': '0.6', 'kl': '0.0007325', 'entropy': '0.5029', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '101.2', 'epoch': '0.002532'}
+{'loss': '0.005499', 'grad_norm': '0.0002786', 'learning_rate': '4.987e-07', 'num_tokens': '6.49e+05', 'completions/mean_length': '2034', 'completions/min_length': '1964', 'completions/max_length': '2048', 'completions/clipped_ratio': '0.95', 'completions/mean_terminated_length': '354.4', 'completions/min_terminated_length': '326', 'completions/max_terminated_length': '377.5', 'rewards/reward_fn/mean': '0.0225', 'rewards/reward_fn/std': '0.07118', 'reward': '0.0225', 'reward_std': '0.07118', 'frac_reward_zero_std': '0.8', 'kl': '0.0007543', 'entropy': '0.5241', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '101.1', 'epoch': '0.003376'}
+
+  ── Step 50 Monitor ──
+    Pass@1           : 8.5%
+    Clean term rate  : 11.0%  ← RISING? (was ~40% Phase A end)
+    No tag rate      : 89.0%  ← FALLING? (was ~40% Phase A end)
+    Mean reward      : -0.032
+    Mean resp words  : 1253  ← FALLING? (was ~800 Phase A end)
+{'loss': '0.103', 'grad_norm': '0.02902', 'learning_rate': '4.969e-07', 'num_tokens': '8.091e+05', 'completions/mean_length': '1868', 'completions/min_length': '1493', 'completions/max_length': '2048', 'completions/clipped_ratio': '0.8125', 'completions/mean_terminated_length': '550.6', 'completions/min_terminated_length': '468.7', 'completions/max_terminated_length': '657.5', 'rewards/reward_fn/mean': '0.1312', 'rewards/reward_fn/std': '0.2067', 'reward': '0.1312', 'reward_std': '0.2067', 'frac_reward_zero_std': '0.5', 'kl': '0.0008083', 'entropy': '0.5433', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '99.92', 'epoch': '0.00422'}
+{'loss': '0.06651', 'grad_norm': '0.02884', 'learning_rate': '4.944e-07', 'num_tokens': '9.812e+05', 'completions/mean_length': '1932', 'completions/min_length': '1650', 'completions/max_length': '2048', 'completions/clipped_ratio': '0.8', 'completions/mean_terminated_length': '745.8', 'completions/min_terminated_length': '625.8', 'completions/max_terminated_length': '862.4', 'rewards/reward_fn/mean': '0.055', 'rewards/reward_fn/std': '0.2392', 'reward': '0.055', 'reward_std': '0.2392', 'frac_reward_zero_std': '0.3', 'kl': '0.0007285', 'entropy': '0.4828', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '98.05', 'epoch': '0.005065'}
+  File "/home/revanth/nlp/scripts/stage4b_grpo/stage4b_grpo.py", line 1243, in <module>
+    main()
+  File "/home/revanth/nlp/scripts/stage4b_grpo/stage4b_grpo.py", line 1176, in main
+    result = trainer.train(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1094, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1123, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1643, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1509, in _generate
+    prompt_ids, completion_ids, logprobs, extra_fields = self._generate_single_turn(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1311, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/peft/peft_model.py", line 2048, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2738, in _sample
+    model_inputs = self.prepare_inputs_for_generation(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 558, in prepare_inputs_for_generation
+    and past_key_values.is_compileable
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/cache_utils.py", line 879, in is_compileable
+    @property
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/revanth/nlp/scripts/stage4b_grpo/stage4b_grpo.py", line 1243, in <module>
+    main()
+  File "/home/revanth/nlp/scripts/stage4b_grpo/stage4b_grpo.py", line 1176, in main
+    result = trainer.train(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1094, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1123, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1643, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1509, in _generate
+    prompt_ids, completion_ids, logprobs, extra_fields = self._generate_single_turn(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1311, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/peft/peft_model.py", line 2048, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2738, in _sample
+    model_inputs = self.prepare_inputs_for_generation(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 558, in prepare_inputs_for_generation
+    and past_key_values.is_compileable
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/cache_utils.py", line 879, in is_compileable
+    @property
+KeyboardInterrupt

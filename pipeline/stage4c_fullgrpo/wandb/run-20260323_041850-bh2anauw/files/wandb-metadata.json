@@ -1,0 +1,48 @@
+{
+  "os": "Linux-4.18.0-553.92.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python": "CPython 3.10.20",
+  "startedAt": "2026-03-23T08:18:50.059662Z",
+  "args": [
+    "--run-name",
+    "fullgrpo_v1",
+    "--wandb"
+  ],
+  "program": "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py",
+  "codePath": "stage4c_fullgrpo.py",
+  "codePathLocal": "stage4c_fullgrpo.py",
+  "email": "sai.sreekantam@gmail.com",
+  "root": "/home/revanth/nlp/scripts/stage4c_fullgrpo",
+  "host": "worker1",
+  "executable": "/home/revanth/miniconda3/envs/nlp/bin/python3",
+  "cpu_count": 32,
+  "cpu_count_logical": 64,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "75125227520",
+      "used": "37127974912"
+    }
+  },
+  "memory": {
+    "total": "231853436928"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada",
+      "uuid": "GPU-783ea485-96e8-57f6-226f-81f33d43e630"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada",
+      "uuid": "GPU-350a389c-bb58-0c76-0d69-004c7d508539"
+    }
+  ],
+  "cudaVersion": "13.1",
+  "writerId": "bnctqtl4jlckod6sx8xezf0ijgonp0h4"
+}

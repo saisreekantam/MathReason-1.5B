@@ -1,0 +1,342 @@
+  0%|                                                                                                                                                                                        | 0/1500 [00:00<?, ?it/s]Passing `generation_config` together with generation-related arguments=({'disable_compile'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+                                                                                                                                                                                                                      
+{'loss': '-0.08132', 'grad_norm': '0.09814', 'learning_rate': '4.5e-07', 'num_tokens': '1.975e+05', 'completions/mean_length': '2369', 'completions/min_length': '1319', 'completions/max_length': '3072', 'completions/clipped_ratio': '0.4125', 'completions/mean_terminated_length': '1891', 'completions/min_terminated_length': '1319', 'completions/max_terminated_length': '2533', 'rewards/reward_fn/mean': '0.2806', 'rewards/reward_fn/std': '0.2843', 'reward': '0.2806', 'reward_std': '0.2843', 'frac_reward_zero_std': '0.4', 'kl': '0.0004074', 'entropy': '0.2752', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '55.66', 'epoch': '0.0008336'}
+{'loss': '-0.1269', 'grad_norm': '0.1357', 'learning_rate': '9.5e-07', 'num_tokens': '3.94e+05', 'completions/mean_length': '2361', 'completions/min_length': '1366', 'completions/max_length': '3011', 'completions/clipped_ratio': '0.475', 'completions/mean_terminated_length': '1873', 'completions/min_terminated_length': '1366', 'completions/max_terminated_length': '2481', 'rewards/reward_fn/mean': '0.3419', 'rewards/reward_fn/std': '0.3296', 'reward': '0.3419', 'reward_std': '0.3296', 'frac_reward_zero_std': '0.2', 'kl': '0.0003659', 'entropy': '0.251', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '55.25', 'epoch': '0.001667'}
+
+  ── Step 25 Monitor ──
+    Pass@1    : 30.5%
+    Tag rate  : 55.5%  ← emergent from binary reward
+    Avg words : 1311
+    ⭐ New best pass@1: 30.5%
+{'loss': '-0.07618', 'grad_norm': '0.08984', 'learning_rate': '9.999e-07', 'num_tokens': '5.726e+05', 'completions/mean_length': '2146', 'completions/min_length': '1318', 'completions/max_length': '2714', 'completions/clipped_ratio': '0.5', 'completions/mean_terminated_length': '1309', 'completions/min_terminated_length': '1011', 'completions/max_terminated_length': '1639', 'rewards/reward_fn/mean': '0.2275', 'rewards/reward_fn/std': '0.2316', 'reward': '0.2275', 'reward_std': '0.2316', 'frac_reward_zero_std': '0.5', 'kl': '0.000311', 'entropy': '0.1989', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '49.74', 'epoch': '0.002501'}
+{'loss': '-0.03533', 'grad_norm': '0.2715', 'learning_rate': '9.996e-07', 'num_tokens': '7.374e+05', 'completions/mean_length': '1958', 'completions/min_length': '1282', 'completions/max_length': '2653', 'completions/clipped_ratio': '0.3375', 'completions/mean_terminated_length': '1170', 'completions/min_terminated_length': '667.1', 'completions/max_terminated_length': '1799', 'rewards/reward_fn/mean': '0.3962', 'rewards/reward_fn/std': '0.2777', 'reward': '0.3962', 'reward_std': '0.2777', 'frac_reward_zero_std': '0.4', 'kl': '0.0004546', 'entropy': '0.3098', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '48.38', 'epoch': '0.003334'}
+
+  ── Step 50 Monitor ──
+    Pass@1    : 35.5%
+    Tag rate  : 53.0%  ← emergent from binary reward
+    Avg words : 1162
+    ⭐ New best pass@1: 35.5%
+{'loss': '-0.1562', 'grad_norm': '0.1406', 'learning_rate': '9.991e-07', 'num_tokens': '9.393e+05', 'completions/mean_length': '2434', 'completions/min_length': '1481', 'completions/max_length': '3072', 'completions/clipped_ratio': '0.575', 'completions/mean_terminated_length': '1497', 'completions/min_terminated_length': '1174', 'completions/max_terminated_length': '2014', 'rewards/reward_fn/mean': '0.2806', 'rewards/reward_fn/std': '0.325', 'reward': '0.2806', 'reward_std': '0.325', 'frac_reward_zero_std': '0.3', 'kl': '0.0002875', 'entropy': '0.192', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '56.32', 'epoch': '0.004168'}
+{'loss': '-0.07103', 'grad_norm': '0.0001783', 'learning_rate': '9.983e-07', 'num_tokens': '1.134e+06', 'completions/mean_length': '2312', 'completions/min_length': '1508', 'completions/max_length': '3004', 'completions/clipped_ratio': '0.525', 'completions/mean_terminated_length': '1504', 'completions/min_terminated_length': '1201', 'completions/max_terminated_length': '2000', 'rewards/reward_fn/mean': '0.2819', 'rewards/reward_fn/std': '0.3469', 'reward': '0.2819', 'reward_std': '0.3469', 'frac_reward_zero_std': '0.2', 'kl': '0.0003327', 'entropy': '0.223', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '54.99', 'epoch': '0.005002'}
+{'loss': '-0.0603', 'grad_norm': '0', 'learning_rate': '9.973e-07', 'num_tokens': '1.329e+06', 'completions/mean_length': '2284', 'completions/min_length': '1457', 'completions/max_length': '2972', 'completions/clipped_ratio': '0.425', 'completions/mean_terminated_length': '1652', 'completions/min_terminated_length': '1150', 'completions/max_terminated_length': '2298', 'rewards/reward_fn/mean': '0.1706', 'rewards/reward_fn/std': '0.1539', 'reward': '0.1706', 'reward_std': '0.1539', 'frac_reward_zero_std': '0.6', 'kl': '0.0003837', 'entropy': '0.2606', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '54.69', 'epoch': '0.005835'}
+
+  ── Step 75 Monitor ──
+    Pass@1    : 29.5%
+    Tag rate  : 58.0%  ← emergent from binary reward
+    Avg words : 1245
+{'loss': '-0.08584', 'grad_norm': '0.09961', 'learning_rate': '9.961e-07', 'num_tokens': '1.511e+06', 'completions/mean_length': '2184', 'completions/min_length': '1274', 'completions/max_length': '3006', 'completions/clipped_ratio': '0.45', 'completions/mean_terminated_length': '1441', 'completions/min_terminated_length': '966.5', 'completions/max_terminated_length': '2174', 'rewards/reward_fn/mean': '0.2331', 'rewards/reward_fn/std': '0.3192', 'reward': '0.2331', 'reward_std': '0.3192', 'frac_reward_zero_std': '0.3', 'kl': '0.0003653', 'entropy': '0.2455', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '55.34', 'epoch': '0.006669'}
+{'loss': '-0.01545', 'grad_norm': '0.0009308', 'learning_rate': '9.946e-07', 'num_tokens': '1.715e+06', 'completions/mean_length': '2457', 'completions/min_length': '1806', 'completions/max_length': '2924', 'completions/clipped_ratio': '0.5125', 'completions/mean_terminated_length': '1629', 'completions/min_terminated_length': '1192', 'completions/max_terminated_length': '2146', 'rewards/reward_fn/mean': '0.1937', 'rewards/reward_fn/std': '0.1804', 'reward': '0.1937', 'reward_std': '0.1804', 'frac_reward_zero_std': '0.6', 'kl': '0.0003582', 'entropy': '0.2402', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.4', 'epoch': '0.007503'}
+
+  ── Step 100 Monitor ──
+    Pass@1    : 26.0%
+    Tag rate  : 49.5%  ← emergent from binary reward
+    Avg words : 1353
+{'loss': '-0.05492', 'grad_norm': '0.124', 'learning_rate': '9.93e-07', 'num_tokens': '1.899e+06', 'completions/mean_length': '2203', 'completions/min_length': '1174', 'completions/max_length': '2945', 'completions/clipped_ratio': '0.4', 'completions/mean_terminated_length': '1770', 'completions/min_terminated_length': '1174', 'completions/max_terminated_length': '2364', 'rewards/reward_fn/mean': '0.2831', 'rewards/reward_fn/std': '0.2846', 'reward': '0.2831', 'reward_std': '0.2846', 'frac_reward_zero_std': '0.4', 'kl': '0.0004375', 'entropy': '0.2642', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.62', 'epoch': '0.008336'}
+                                                                                                                                                                                                                      
+{'loss': '-0.0163', 'grad_norm': '0.06689', 'learning_rate': '9.911e-07', 'num_tokens': '2.087e+06', 'completions/mean_length': '2259', 'completions/min_length': '1288', 'completions/max_length': '3019', 'completions/clipped_ratio': '0.4125', 'completions/mean_terminated_length': '1852', 'completions/min_terminated_length': '1288', 'completions/max_terminated_length': '2609', 'rewards/reward_fn/mean': '0.3769', 'rewards/reward_fn/std': '0.3185', 'reward': '0.3769', 'reward_std': '0.3185', 'frac_reward_zero_std': '0.2', 'kl': '0.0003956', 'entropy': '0.2673', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.38', 'epoch': '0.00917'}
+{'loss': '-0.1193', 'grad_norm': '0.05103', 'learning_rate': '9.89e-07', 'num_tokens': '2.267e+06', 'completions/mean_length': '2151', 'completions/min_length': '1341', 'completions/max_length': '2946', 'completions/clipped_ratio': '0.2875', 'completions/mean_terminated_length': '1932', 'completions/min_terminated_length': '1341', 'completions/max_terminated_length': '2628', 'rewards/reward_fn/mean': '0.5125', 'rewards/reward_fn/std': '0.3411', 'reward': '0.5125', 'reward_std': '0.3411', 'frac_reward_zero_std': '0.2', 'kl': '0.0004846', 'entropy': '0.3442', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '50.84', 'epoch': '0.01'}
+
+  ── Step 125 Monitor ──
+    Pass@1    : 44.0%
+    Tag rate  : 67.0%  ← emergent from binary reward
+    Avg words : 1209
+    ⭐ New best pass@1: 44.0%
+{'loss': '-0.02185', 'grad_norm': '0.1299', 'learning_rate': '9.867e-07', 'num_tokens': '2.43e+06', 'completions/mean_length': '1951', 'completions/min_length': '873.9', 'completions/max_length': '2966', 'completions/clipped_ratio': '0.2375', 'completions/mean_terminated_length': '1648', 'completions/min_terminated_length': '873.9', 'completions/max_terminated_length': '2572', 'rewards/reward_fn/mean': '0.5012', 'rewards/reward_fn/std': '0.3796', 'reward': '0.5012', 'reward_std': '0.3796', 'frac_reward_zero_std': '0.2', 'kl': '0.0005204', 'entropy': '0.3546', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '51.56', 'epoch': '0.01084'}
+{'loss': '-0.03522', 'grad_norm': '0.0009346', 'learning_rate': '9.841e-07', 'num_tokens': '2.552e+06', 'completions/mean_length': '1439', 'completions/min_length': '887.9', 'completions/max_length': '2080', 'completions/clipped_ratio': '0.2125', 'completions/mean_terminated_length': '978', 'completions/min_terminated_length': '580.7', 'completions/max_terminated_length': '1460', 'rewards/reward_fn/mean': '0.3169', 'rewards/reward_fn/std': '0.227', 'reward': '0.3169', 'reward_std': '0.227', 'frac_reward_zero_std': '0.5', 'kl': '0.0004833', 'entropy': '0.305', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '36.11', 'epoch': '0.01167'}
+
+  ── Step 150 Monitor ──
+    Pass@1    : 60.5%
+    Tag rate  : 79.5%  ← emergent from binary reward
+    Avg words : 932
+    ⭐ New best pass@1: 60.5%
+{'loss': '-0.02458', 'grad_norm': '0.1748', 'learning_rate': '9.814e-07', 'num_tokens': '2.699e+06', 'completions/mean_length': '1762', 'completions/min_length': '897.7', 'completions/max_length': '2465', 'completions/clipped_ratio': '0.2125', 'completions/mean_terminated_length': '1511', 'completions/min_terminated_length': '897.7', 'completions/max_terminated_length': '2194', 'rewards/reward_fn/mean': '0.3694', 'rewards/reward_fn/std': '0.2742', 'reward': '0.3694', 'reward_std': '0.2742', 'frac_reward_zero_std': '0.4', 'kl': '0.0005413', 'entropy': '0.3605', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '42.69', 'epoch': '0.0125'}
+{'loss': '-0.05586', 'grad_norm': '0.0003967', 'learning_rate': '9.784e-07', 'num_tokens': '2.914e+06', 'completions/mean_length': '2593', 'completions/min_length': '1464', 'completions/max_length': '3072', 'completions/clipped_ratio': '0.5375', 'completions/mean_terminated_length': '2069', 'completions/min_terminated_length': '1464', 'completions/max_terminated_length': '2524', 'rewards/reward_fn/mean': '0.1325', 'rewards/reward_fn/std': '0.1634', 'reward': '0.1325', 'reward_std': '0.1634', 'frac_reward_zero_std': '0.6', 'kl': '0.000322', 'entropy': '0.2165', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.08', 'epoch': '0.01334'}
+{'loss': '0.02059', 'grad_norm': '0.1602', 'learning_rate': '9.752e-07', 'num_tokens': '3.044e+06', 'completions/mean_length': '1529', 'completions/min_length': '781.6', 'completions/max_length': '2386', 'completions/clipped_ratio': '0.1375', 'completions/mean_terminated_length': '1347', 'completions/min_terminated_length': '781.6', 'completions/max_terminated_length': '2154', 'rewards/reward_fn/mean': '0.3837', 'rewards/reward_fn/std': '0.3591', 'reward': '0.3837', 'reward_std': '0.3591', 'frac_reward_zero_std': '0.2', 'kl': '0.0006198', 'entropy': '0.4085', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '41.26', 'epoch': '0.01417'}
+
+  ── Step 175 Monitor ──
+    Pass@1    : 37.5%
+    Tag rate  : 69.0%  ← emergent from binary reward
+    Avg words : 1141
+{'loss': '-0.04026', 'grad_norm': '0.1826', 'learning_rate': '9.718e-07', 'num_tokens': '3.211e+06', 'completions/mean_length': '1987', 'completions/min_length': '1033', 'completions/max_length': '2862', 'completions/clipped_ratio': '0.3125', 'completions/mean_terminated_length': '1574', 'completions/min_terminated_length': '1033', 'completions/max_terminated_length': '2253', 'rewards/reward_fn/mean': '0.3431', 'rewards/reward_fn/std': '0.346', 'reward': '0.3431', 'reward_std': '0.346', 'frac_reward_zero_std': '0.2', 'kl': '0.0005046', 'entropy': '0.3329', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '49.18', 'epoch': '0.01501'}
+{'loss': '-0.06145', 'grad_norm': '0.01227', 'learning_rate': '9.682e-07', 'num_tokens': '3.395e+06', 'completions/mean_length': '2218', 'completions/min_length': '1334', 'completions/max_length': '2990', 'completions/clipped_ratio': '0.45', 'completions/mean_terminated_length': '1734', 'completions/min_terminated_length': '1334', 'completions/max_terminated_length': '2352', 'rewards/reward_fn/mean': '0.3081', 'rewards/reward_fn/std': '0.287', 'reward': '0.3081', 'reward_std': '0.287', 'frac_reward_zero_std': '0.4', 'kl': '0.0003963', 'entropy': '0.2643', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '51.49', 'epoch': '0.01584'}
+
+  ── Step 200 Monitor ──
+    Pass@1    : 41.5%
+    Tag rate  : 60.5%  ← emergent from binary reward
+    Avg words : 1207
+{'loss': '0.01281', 'grad_norm': '0.000885', 'learning_rate': '9.643e-07', 'num_tokens': '3.554e+06', 'completions/mean_length': '1901', 'completions/min_length': '1250', 'completions/max_length': '2528', 'completions/clipped_ratio': '0.325', 'completions/mean_terminated_length': '1385', 'completions/min_terminated_length': '942.4', 'completions/max_terminated_length': '1968', 'rewards/reward_fn/mean': '0.1863', 'rewards/reward_fn/std': '0.1759', 'reward': '0.1863', 'reward_std': '0.1759', 'frac_reward_zero_std': '0.6', 'kl': '0.0004745', 'entropy': '0.322', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '43.74', 'epoch': '0.01667'}
+Writing model shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:02<00:00,  2.71s/it]
+{'loss': '-0.08489', 'grad_norm': '0.1084', 'learning_rate': '9.603e-07', 'num_tokens': '3.712e+06', 'completions/mean_length': '1890', 'completions/min_length': '926.5', 'completions/max_length': '2748', 'completions/clipped_ratio': '0.2625', 'completions/mean_terminated_length': '1565', 'completions/min_terminated_length': '926.5', 'completions/max_terminated_length': '2476', 'rewards/reward_fn/mean': '0.4263', 'rewards/reward_fn/std': '0.3276', 'reward': '0.4263', 'reward_std': '0.3276', 'frac_reward_zero_std': '0.3', 'kl': '0.0005014', 'entropy': '0.3345', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '47.57', 'epoch': '0.01751'}
+{'loss': '-0.07052', 'grad_norm': '0.1963', 'learning_rate': '9.561e-07', 'num_tokens': '3.875e+06', 'completions/mean_length': '1957', 'completions/min_length': '1120', 'completions/max_length': '2724', 'completions/clipped_ratio': '0.2875', 'completions/mean_terminated_length': '1710', 'completions/min_terminated_length': '1120', 'completions/max_terminated_length': '2445', 'rewards/reward_fn/mean': '0.4306', 'rewards/reward_fn/std': '0.3082', 'reward': '0.4306', 'reward_std': '0.3082', 'frac_reward_zero_std': '0.3', 'kl': '0.0005039', 'entropy': '0.3356', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '47.09', 'epoch': '0.01834'}
+
+  ── Step 225 Monitor ──
+    Pass@1    : 47.5%
+    Tag rate  : 70.5%  ← emergent from binary reward
+    Avg words : 1142
+{'loss': '-0.01926', 'grad_norm': '0.0004425', 'learning_rate': '9.516e-07', 'num_tokens': '4.067e+06', 'completions/mean_length': '2311', 'completions/min_length': '1265', 'completions/max_length': '3011', 'completions/clipped_ratio': '0.4875', 'completions/mean_terminated_length': '1725', 'completions/min_terminated_length': '1265', 'completions/max_terminated_length': '2340', 'rewards/reward_fn/mean': '0.07313', 'rewards/reward_fn/std': '0.08442', 'reward': '0.07313', 'reward_std': '0.08442', 'frac_reward_zero_std': '0.8', 'kl': '0.0003478', 'entropy': '0.2417', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.06', 'epoch': '0.01917'}
+{'loss': '-0.04296', 'grad_norm': '0.0007019', 'learning_rate': '9.469e-07', 'num_tokens': '4.236e+06', 'completions/mean_length': '2023', 'completions/min_length': '1133', 'completions/max_length': '2884', 'completions/clipped_ratio': '0.3625', 'completions/mean_terminated_length': '1609', 'completions/min_terminated_length': '1133', 'completions/max_terminated_length': '2277', 'rewards/reward_fn/mean': '0.2094', 'rewards/reward_fn/std': '0.2785', 'reward': '0.2094', 'reward_std': '0.2785', 'frac_reward_zero_std': '0.4', 'kl': '0.000439', 'entropy': '0.2885', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '49.67', 'epoch': '0.02001'}
+
+  ── Step 250 Monitor ──
+    Pass@1    : 26.0%
+    Tag rate  : 56.5%  ← emergent from binary reward
+    Avg words : 1262
+{'loss': '-0.07643', 'grad_norm': '0', 'learning_rate': '9.421e-07', 'num_tokens': '4.432e+06', 'completions/mean_length': '2359', 'completions/min_length': '1733', 'completions/max_length': '2899', 'completions/clipped_ratio': '0.4375', 'completions/mean_terminated_length': '1549', 'completions/min_terminated_length': '1119', 'completions/max_terminated_length': '2090', 'rewards/reward_fn/mean': '0.2694', 'rewards/reward_fn/std': '0.2047', 'reward': '0.2694', 'reward_std': '0.2047', 'frac_reward_zero_std': '0.5', 'kl': '0.0003688', 'entropy': '0.2548', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '50.19', 'epoch': '0.02084'}
+{'loss': '-0.1039', 'grad_norm': '0.2832', 'learning_rate': '9.37e-07', 'num_tokens': '4.59e+06', 'completions/mean_length': '1890', 'completions/min_length': '1078', 'completions/max_length': '2769', 'completions/clipped_ratio': '0.325', 'completions/mean_terminated_length': '1232', 'completions/min_terminated_length': '771', 'completions/max_terminated_length': '1934', 'rewards/reward_fn/mean': '0.4088', 'rewards/reward_fn/std': '0.3844', 'reward': '0.4088', 'reward_std': '0.3844', 'frac_reward_zero_std': '0.2', 'kl': '0.0004837', 'entropy': '0.2988', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '48.15', 'epoch': '0.02167'}
+{'loss': '-0.05683', 'grad_norm': '0.1187', 'learning_rate': '9.318e-07', 'num_tokens': '4.77e+06', 'completions/mean_length': '2167', 'completions/min_length': '1192', 'completions/max_length': '3016', 'completions/clipped_ratio': '0.3875', 'completions/mean_terminated_length': '1664', 'completions/min_terminated_length': '1192', 'completions/max_terminated_length': '2279', 'rewards/reward_fn/mean': '0.2719', 'rewards/reward_fn/std': '0.2869', 'reward': '0.2719', 'reward_std': '0.2869', 'frac_reward_zero_std': '0.3', 'kl': '0.0004357', 'entropy': '0.2954', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '51.93', 'epoch': '0.02251'}
+
+  ── Step 275 Monitor ──
+    Pass@1    : 39.5%
+    Tag rate  : 68.5%  ← emergent from binary reward
+    Avg words : 1098
+{'loss': '-0.08024', 'grad_norm': '0.1279', 'learning_rate': '9.263e-07', 'num_tokens': '4.937e+06', 'completions/mean_length': '2016', 'completions/min_length': '996.5', 'completions/max_length': '3016', 'completions/clipped_ratio': '0.225', 'completions/mean_terminated_length': '1740', 'completions/min_terminated_length': '996.5', 'completions/max_terminated_length': '2536', 'rewards/reward_fn/mean': '0.4256', 'rewards/reward_fn/std': '0.3872', 'reward': '0.4256', 'reward_std': '0.3872', 'frac_reward_zero_std': '0.2', 'kl': '0.0005411', 'entropy': '0.3657', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.28', 'epoch': '0.02334'}
+{'loss': '-0.01154', 'grad_norm': '0.2158', 'learning_rate': '9.207e-07', 'num_tokens': '5.101e+06', 'completions/mean_length': '1966', 'completions/min_length': '991.6', 'completions/max_length': '2906', 'completions/clipped_ratio': '0.325', 'completions/mean_terminated_length': '1515', 'completions/min_terminated_length': '991.6', 'completions/max_terminated_length': '2040', 'rewards/reward_fn/mean': '0.3825', 'rewards/reward_fn/std': '0.3196', 'reward': '0.3825', 'reward_std': '0.3196', 'frac_reward_zero_std': '0.3', 'kl': '0.0004574', 'entropy': '0.2943', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '50.51', 'epoch': '0.02417'}
+
+  ── Step 300 Monitor ──
+    Pass@1    : 40.5%
+    Tag rate  : 66.5%  ← emergent from binary reward
+    Avg words : 1143
+{'loss': '-0.02251', 'grad_norm': '0.1494', 'learning_rate': '9.148e-07', 'num_tokens': '5.278e+06', 'completions/mean_length': '2118', 'completions/min_length': '1502', 'completions/max_length': '2615', 'completions/clipped_ratio': '0.3625', 'completions/mean_terminated_length': '1608', 'completions/min_terminated_length': '1194', 'completions/max_terminated_length': '2094', 'rewards/reward_fn/mean': '0.1819', 'rewards/reward_fn/std': '0.1464', 'reward': '0.1819', 'reward_std': '0.1464', 'frac_reward_zero_std': '0.7', 'kl': '0.0004247', 'entropy': '0.2845', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '45.25', 'epoch': '0.02501'}
+Writing model shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:04<00:00,  4.50s/it]
+{'loss': '-0.01349', 'grad_norm': '0.123', 'learning_rate': '9.088e-07', 'num_tokens': '5.471e+06', 'completions/mean_length': '2332', 'completions/min_length': '1486', 'completions/max_length': '3039', 'completions/clipped_ratio': '0.4625', 'completions/mean_terminated_length': '1696', 'completions/min_terminated_length': '1179', 'completions/max_terminated_length': '2347', 'rewards/reward_fn/mean': '0.1562', 'rewards/reward_fn/std': '0.2078', 'reward': '0.1562', 'reward_std': '0.2078', 'frac_reward_zero_std': '0.5', 'kl': '0.0003746', 'entropy': '0.2492', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '54.38', 'epoch': '0.02584'}
+{'loss': '-0.05108', 'grad_norm': '0.1089', 'learning_rate': '9.026e-07', 'num_tokens': '5.653e+06', 'completions/mean_length': '2186', 'completions/min_length': '1164', 'completions/max_length': '3072', 'completions/clipped_ratio': '0.45', 'completions/mean_terminated_length': '1632', 'completions/min_terminated_length': '1164', 'completions/max_terminated_length': '2327', 'rewards/reward_fn/mean': '0.3212', 'rewards/reward_fn/std': '0.3387', 'reward': '0.3212', 'reward_std': '0.3387', 'frac_reward_zero_std': '0.3', 'kl': '0.0003816', 'entropy': '0.2488', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '60.47', 'epoch': '0.02668'}
+
+  ── Step 325 Monitor ──
+    Pass@1    : 27.0%
+    Tag rate  : 55.0%  ← emergent from binary reward
+    Avg words : 1269
+{'loss': '-0.02461', 'grad_norm': '0', 'learning_rate': '8.962e-07', 'num_tokens': '5.83e+06', 'completions/mean_length': '2122', 'completions/min_length': '1097', 'completions/max_length': '2797', 'completions/clipped_ratio': '0.35', 'completions/mean_terminated_length': '1491', 'completions/min_terminated_length': '790', 'completions/max_terminated_length': '2211', 'rewards/reward_fn/mean': '0.1219', 'rewards/reward_fn/std': '0.1916', 'reward': '0.1219', 'reward_std': '0.1916', 'frac_reward_zero_std': '0.6', 'kl': '0.000443', 'entropy': '0.2919', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '56.88', 'epoch': '0.02751'}
+{'loss': '-0.06367', 'grad_norm': '0.1738', 'learning_rate': '8.897e-07', 'num_tokens': '6.019e+06', 'completions/mean_length': '2243', 'completions/min_length': '1173', 'completions/max_length': '3072', 'completions/clipped_ratio': '0.425', 'completions/mean_terminated_length': '1716', 'completions/min_terminated_length': '1173', 'completions/max_terminated_length': '2318', 'rewards/reward_fn/mean': '0.2919', 'rewards/reward_fn/std': '0.3707', 'reward': '0.2919', 'reward_std': '0.3707', 'frac_reward_zero_std': '0.2', 'kl': '0.000389', 'entropy': '0.2674', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '57.48', 'epoch': '0.02834'}
+
+  ── Step 350 Monitor ──
+    Pass@1    : 39.0%
+    Tag rate  : 67.0%  ← emergent from binary reward
+    Avg words : 1171
+{'loss': '-0.05981', 'grad_norm': '0.08252', 'learning_rate': '8.829e-07', 'num_tokens': '6.183e+06', 'completions/mean_length': '1931', 'completions/min_length': '982.1', 'completions/max_length': '2942', 'completions/clipped_ratio': '0.2625', 'completions/mean_terminated_length': '1628', 'completions/min_terminated_length': '982.1', 'completions/max_terminated_length': '2433', 'rewards/reward_fn/mean': '0.3281', 'rewards/reward_fn/std': '0.2828', 'reward': '0.3281', 'reward_std': '0.2828', 'frac_reward_zero_std': '0.4', 'kl': '0.0005091', 'entropy': '0.3405', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '50.89', 'epoch': '0.02918'}
+{'loss': '-0.03551', 'grad_norm': '0.1035', 'learning_rate': '8.76e-07', 'num_tokens': '6.328e+06', 'completions/mean_length': '1711', 'completions/min_length': '1143', 'completions/max_length': '2422', 'completions/clipped_ratio': '0.275', 'completions/mean_terminated_length': '1472', 'completions/min_terminated_length': '1143', 'completions/max_terminated_length': '2102', 'rewards/reward_fn/mean': '0.1981', 'rewards/reward_fn/std': '0.1984', 'reward': '0.1981', 'reward_std': '0.1984', 'frac_reward_zero_std': '0.6', 'kl': '0.0004759', 'entropy': '0.3075', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '42.09', 'epoch': '0.03001'}
+{'loss': '-0.03055', 'grad_norm': '0.01636', 'learning_rate': '8.69e-07', 'num_tokens': '6.506e+06', 'completions/mean_length': '2147', 'completions/min_length': '1395', 'completions/max_length': '2662', 'completions/clipped_ratio': '0.3375', 'completions/mean_terminated_length': '1906', 'completions/min_terminated_length': '1395', 'completions/max_terminated_length': '2482', 'rewards/reward_fn/mean': '0.2644', 'rewards/reward_fn/std': '0.3069', 'reward': '0.2644', 'reward_std': '0.3069', 'frac_reward_zero_std': '0.3', 'kl': '0.0004931', 'entropy': '0.3356', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '46.47', 'epoch': '0.03084'}
+
+  ── Step 375 Monitor ──
+    Pass@1    : 39.5%
+    Tag rate  : 64.0%  ← emergent from binary reward
+    Avg words : 1260
+{'loss': '-0.0691', 'grad_norm': '0', 'learning_rate': '8.617e-07', 'num_tokens': '6.713e+06', 'completions/mean_length': '2485', 'completions/min_length': '1462', 'completions/max_length': '3048', 'completions/clipped_ratio': '0.525', 'completions/mean_terminated_length': '1606', 'completions/min_terminated_length': '1155', 'completions/max_terminated_length': '2080', 'rewards/reward_fn/mean': '0.145', 'rewards/reward_fn/std': '0.2029', 'reward': '0.145', 'reward_std': '0.2029', 'frac_reward_zero_std': '0.5', 'kl': '0.000348', 'entropy': '0.24', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.83', 'epoch': '0.03168'}
+{'loss': '-0.0009432', 'grad_norm': '0.2119', 'learning_rate': '8.543e-07', 'num_tokens': '6.888e+06', 'completions/mean_length': '2113', 'completions/min_length': '1188', 'completions/max_length': '3012', 'completions/clipped_ratio': '0.375', 'completions/mean_terminated_length': '1458', 'completions/min_terminated_length': '881.2', 'completions/max_terminated_length': '2124', 'rewards/reward_fn/mean': '0.3081', 'rewards/reward_fn/std': '0.2657', 'reward': '0.3081', 'reward_std': '0.2657', 'frac_reward_zero_std': '0.4', 'kl': '0.0004316', 'entropy': '0.2857', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.27', 'epoch': '0.03251'}
+
+  ── Step 400 Monitor ──
+    Pass@1    : 30.5%
+    Tag rate  : 61.5%  ← emergent from binary reward
+    Avg words : 1227
+{'loss': '-0.03202', 'grad_norm': '0.1069', 'learning_rate': '8.467e-07', 'num_tokens': '7.065e+06', 'completions/mean_length': '2091', 'completions/min_length': '1190', 'completions/max_length': '2919', 'completions/clipped_ratio': '0.35', 'completions/mean_terminated_length': '1437', 'completions/min_terminated_length': '882.4', 'completions/max_terminated_length': '2065', 'rewards/reward_fn/mean': '0.305', 'rewards/reward_fn/std': '0.2831', 'reward': '0.305', 'reward_std': '0.2831', 'frac_reward_zero_std': '0.4', 'kl': '0.0004519', 'entropy': '0.3088', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.93', 'epoch': '0.03334'}
+ 33%|████████████████████████████████████████████████████████▎                                                                                                                | 500/1500 [7:11:34<14:00:10, 50.41s/it]
+{'loss': '-0.09054', 'grad_norm': '0.07812', 'learning_rate': '8.39e-07', 'num_tokens': '7.239e+06', 'completions/mean_length': '2079', 'completions/min_length': '984.3', 'completions/max_length': '3072', 'completions/clipped_ratio': '0.325', 'completions/mean_terminated_length': '1651', 'completions/min_terminated_length': '984.3', 'completions/max_terminated_length': '2329', 'rewards/reward_fn/mean': '0.2556', 'rewards/reward_fn/std': '0.1872', 'reward': '0.2556', 'reward_std': '0.1872', 'frac_reward_zero_std': '0.6', 'kl': '0.0004508', 'entropy': '0.3051', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '55.98', 'epoch': '0.03418'}
+{'loss': '-0.0549', 'grad_norm': '0.1113', 'learning_rate': '8.311e-07', 'num_tokens': '7.404e+06', 'completions/mean_length': '1970', 'completions/min_length': '1034', 'completions/max_length': '2907', 'completions/clipped_ratio': '0.325', 'completions/mean_terminated_length': '1323', 'completions/min_terminated_length': '726.8', 'completions/max_terminated_length': '1998', 'rewards/reward_fn/mean': '0.4912', 'rewards/reward_fn/std': '0.4167', 'reward': '0.4912', 'reward_std': '0.4167', 'frac_reward_zero_std': '0.1', 'kl': '0.0004696', 'entropy': '0.3102', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.83', 'epoch': '0.03501'}
+
+  ── Step 425 Monitor ──
+    Pass@1    : 38.5%
+    Tag rate  : 64.0%  ← emergent from binary reward
+    Avg words : 1260
+{'loss': '-0.08802', 'grad_norm': '0.1167', 'learning_rate': '8.231e-07', 'num_tokens': '7.593e+06', 'completions/mean_length': '2271', 'completions/min_length': '1381', 'completions/max_length': '2982', 'completions/clipped_ratio': '0.4375', 'completions/mean_terminated_length': '1814', 'completions/min_terminated_length': '1381', 'completions/max_terminated_length': '2323', 'rewards/reward_fn/mean': '0.3031', 'rewards/reward_fn/std': '0.2798', 'reward': '0.3031', 'reward_std': '0.2798', 'frac_reward_zero_std': '0.3', 'kl': '0.0004084', 'entropy': '0.2769', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.76', 'epoch': '0.03585'}
+{'loss': '-0.04196', 'grad_norm': '0.1201', 'learning_rate': '8.149e-07', 'num_tokens': '7.781e+06', 'completions/mean_length': '2261', 'completions/min_length': '1270', 'completions/max_length': '3018', 'completions/clipped_ratio': '0.4', 'completions/mean_terminated_length': '1788', 'completions/min_terminated_length': '1270', 'completions/max_terminated_length': '2458', 'rewards/reward_fn/mean': '0.3419', 'rewards/reward_fn/std': '0.3492', 'reward': '0.3419', 'reward_std': '0.3492', 'frac_reward_zero_std': '0.2', 'kl': '0.0003842', 'entropy': '0.256', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '55.09', 'epoch': '0.03668'}
+
+  ── Step 450 Monitor ──
+    Pass@1    : 41.0%
+    Tag rate  : 61.5%  ← emergent from binary reward
+    Avg words : 1153
+{'loss': '-0.1692', 'grad_norm': '0.05103', 'learning_rate': '8.066e-07', 'num_tokens': '7.952e+06', 'completions/mean_length': '2048', 'completions/min_length': '1035', 'completions/max_length': '3072', 'completions/clipped_ratio': '0.4', 'completions/mean_terminated_length': '1491', 'completions/min_terminated_length': '1035', 'completions/max_terminated_length': '2093', 'rewards/reward_fn/mean': '0.4581', 'rewards/reward_fn/std': '0.3963', 'reward': '0.4581', 'reward_std': '0.3963', 'frac_reward_zero_std': '0.1', 'kl': '0.0003955', 'entropy': '0.2558', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '54.65', 'epoch': '0.03751'}
+{'loss': '-0.03142', 'grad_norm': '0.2178', 'learning_rate': '7.982e-07', 'num_tokens': '8.109e+06', 'completions/mean_length': '1882', 'completions/min_length': '995.6', 'completions/max_length': '2696', 'completions/clipped_ratio': '0.3125', 'completions/mean_terminated_length': '1526', 'completions/min_terminated_length': '995.6', 'completions/max_terminated_length': '2173', 'rewards/reward_fn/mean': '0.3712', 'rewards/reward_fn/std': '0.2704', 'reward': '0.3712', 'reward_std': '0.2704', 'frac_reward_zero_std': '0.4', 'kl': '0.0004668', 'entropy': '0.291', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '48.64', 'epoch': '0.03835'}
+{'loss': '0.008052', 'grad_norm': '0.001572', 'learning_rate': '7.896e-07', 'num_tokens': '8.283e+06', 'completions/mean_length': '2051', 'completions/min_length': '1343', 'completions/max_length': '2759', 'completions/clipped_ratio': '0.4', 'completions/mean_terminated_length': '1771', 'completions/min_terminated_length': '1343', 'completions/max_terminated_length': '2430', 'rewards/reward_fn/mean': '0.2562', 'rewards/reward_fn/std': '0.1933', 'reward': '0.2562', 'reward_std': '0.1933', 'frac_reward_zero_std': '0.6', 'kl': '0.0003955', 'entropy': '0.2707', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '49.57', 'epoch': '0.03918'}
+
+  ── Step 475 Monitor ──
+    Pass@1    : 43.0%
+    Tag rate  : 62.5%  ← emergent from binary reward
+    Avg words : 1090
+{'loss': '-0.02482', 'grad_norm': '0.0003262', 'learning_rate': '7.809e-07', 'num_tokens': '8.463e+06', 'completions/mean_length': '2163', 'completions/min_length': '1342', 'completions/max_length': '2839', 'completions/clipped_ratio': '0.475', 'completions/mean_terminated_length': '1395', 'completions/min_terminated_length': '1035', 'completions/max_terminated_length': '1843', 'rewards/reward_fn/mean': '0.0975', 'rewards/reward_fn/std': '0.1288', 'reward': '0.0975', 'reward_std': '0.1288', 'frac_reward_zero_std': '0.7', 'kl': '0.0004015', 'entropy': '0.2676', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '49.64', 'epoch': '0.04001'}
+{'loss': '-0.03667', 'grad_norm': '0.0001621', 'learning_rate': '7.72e-07', 'num_tokens': '8.663e+06', 'completions/mean_length': '2397', 'completions/min_length': '1510', 'completions/max_length': '3072', 'completions/clipped_ratio': '0.525', 'completions/mean_terminated_length': '1904', 'completions/min_terminated_length': '1510', 'completions/max_terminated_length': '2360', 'rewards/reward_fn/mean': '0.2844', 'rewards/reward_fn/std': '0.2396', 'reward': '0.2844', 'reward_std': '0.2396', 'frac_reward_zero_std': '0.5', 'kl': '0.000313', 'entropy': '0.2143', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '53.77', 'epoch': '0.04085'}
+
+  ── Step 500 Monitor ──
+    Pass@1    : 33.0%
+    Tag rate  : 52.0%  ← emergent from binary reward
+    Avg words : 1287
+
+  MATH500 eval @ step 500...
+    [ 50/100]  36.0%
+    [100/100]  38.0%
+  MATH500 @ step 500: 38/100 = 38.0%
+  (Phase B baseline: ~62% | Target: ~75%+)
+  ⭐ New best MATH500: 38.0%
+{'loss': '-0.05556', 'grad_norm': '0.09766', 'learning_rate': '7.631e-07', 'num_tokens': '8.847e+06', 'completions/mean_length': '2209', 'completions/min_length': '1493', 'completions/max_length': '2659', 'completions/clipped_ratio': '0.425', 'completions/mean_terminated_length': '1623', 'completions/min_terminated_length': '1186', 'completions/max_terminated_length': '2081', 'rewards/reward_fn/mean': '0.2669', 'rewards/reward_fn/std': '0.3091', 'reward': '0.2669', 'reward_std': '0.3091', 'frac_reward_zero_std': '0.3', 'kl': '0.000353', 'entropy': '0.2367', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '46.38', 'epoch': '0.04168'}
+Writing model shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:04<00:00,  4.81s/it]
+{'loss': '-0.05808', 'grad_norm': '0.0002499', 'learning_rate': '7.54e-07', 'num_tokens': '9.045e+06', 'completions/mean_length': '2361', 'completions/min_length': '1664', 'completions/max_length': '3072', 'completions/clipped_ratio': '0.4875', 'completions/mean_terminated_length': '1437', 'completions/min_terminated_length': '1050', 'completions/max_terminated_length': '1897', 'rewards/reward_fn/mean': '0.2413', 'rewards/reward_fn/std': '0.2314', 'reward': '0.2413', 'reward_std': '0.2314', 'frac_reward_zero_std': '0.5', 'kl': '0.0003516', 'entropy': '0.2283', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '54.06', 'epoch': '0.04251'}
+{'loss': '0.04904', 'grad_norm': '0.1279', 'learning_rate': '7.448e-07', 'num_tokens': '9.218e+06', 'completions/mean_length': '2067', 'completions/min_length': '910.3', 'completions/max_length': '2974', 'completions/clipped_ratio': '0.275', 'completions/mean_terminated_length': '1742', 'completions/min_terminated_length': '910.3', 'completions/max_terminated_length': '2645', 'rewards/reward_fn/mean': '0.3706', 'rewards/reward_fn/std': '0.2966', 'reward': '0.3706', 'reward_std': '0.2966', 'frac_reward_zero_std': '0.3', 'kl': '0.0004924', 'entropy': '0.3219', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.22', 'epoch': '0.04335'}
+
+  ── Step 525 Monitor ──
+    Pass@1    : 34.0%
+    Tag rate  : 62.5%  ← emergent from binary reward
+    Avg words : 1257
+{'loss': '-0.03837', 'grad_norm': '0.001205', 'learning_rate': '7.355e-07', 'num_tokens': '9.374e+06', 'completions/mean_length': '1860', 'completions/min_length': '965.9', 'completions/max_length': '2698', 'completions/clipped_ratio': '0.325', 'completions/mean_terminated_length': '1445', 'completions/min_terminated_length': '965.9', 'completions/max_terminated_length': '1984', 'rewards/reward_fn/mean': '0.3969', 'rewards/reward_fn/std': '0.3616', 'reward': '0.3969', 'reward_std': '0.3616', 'frac_reward_zero_std': '0.2', 'kl': '0.0004603', 'entropy': '0.2934', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '47.14', 'epoch': '0.04418'}
+{'loss': '-0.06834', 'grad_norm': '0.1235', 'learning_rate': '7.26e-07', 'num_tokens': '9.567e+06', 'completions/mean_length': '2306', 'completions/min_length': '1573', 'completions/max_length': '2861', 'completions/clipped_ratio': '0.5', 'completions/mean_terminated_length': '1605', 'completions/min_terminated_length': '1266', 'completions/max_terminated_length': '2166', 'rewards/reward_fn/mean': '0.2213', 'rewards/reward_fn/std': '0.2661', 'reward': '0.2213', 'reward_std': '0.2661', 'frac_reward_zero_std': '0.4', 'kl': '0.0003613', 'entropy': '0.2324', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.89', 'epoch': '0.04502'}
+
+  ── Step 550 Monitor ──
+    Pass@1    : 26.0%
+    Tag rate  : 57.0%  ← emergent from binary reward
+    Avg words : 1255
+{'loss': '-0.07735', 'grad_norm': '0.0001745', 'learning_rate': '7.165e-07', 'num_tokens': '9.757e+06', 'completions/mean_length': '2294', 'completions/min_length': '1421', 'completions/max_length': '2960', 'completions/clipped_ratio': '0.425', 'completions/mean_terminated_length': '1918', 'completions/min_terminated_length': '1421', 'completions/max_terminated_length': '2494', 'rewards/reward_fn/mean': '0.145', 'rewards/reward_fn/std': '0.2175', 'reward': '0.145', 'reward_std': '0.2175', 'frac_reward_zero_std': '0.5', 'kl': '0.0003969', 'entropy': '0.2553', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '56.19', 'epoch': '0.04585'}
+{'loss': '-0.09122', 'grad_norm': '0.1016', 'learning_rate': '7.069e-07', 'num_tokens': '9.96e+06', 'completions/mean_length': '2412', 'completions/min_length': '1654', 'completions/max_length': '2978', 'completions/clipped_ratio': '0.5125', 'completions/mean_terminated_length': '1770', 'completions/min_terminated_length': '1346', 'completions/max_terminated_length': '2266', 'rewards/reward_fn/mean': '0.3294', 'rewards/reward_fn/std': '0.266', 'reward': '0.3294', 'reward_std': '0.266', 'frac_reward_zero_std': '0.4', 'kl': '0.0003357', 'entropy': '0.2182', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.58', 'epoch': '0.04668'}
+{'loss': '-0.01529', 'grad_norm': '0.0005531', 'learning_rate': '6.972e-07', 'num_tokens': '1.016e+07', 'completions/mean_length': '2435', 'completions/min_length': '1658', 'completions/max_length': '2967', 'completions/clipped_ratio': '0.525', 'completions/mean_terminated_length': '2023', 'completions/min_terminated_length': '1658', 'completions/max_terminated_length': '2454', 'rewards/reward_fn/mean': '0.1463', 'rewards/reward_fn/std': '0.1211', 'reward': '0.1463', 'reward_std': '0.1211', 'frac_reward_zero_std': '0.7', 'kl': '0.0003388', 'entropy': '0.2251', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.04', 'epoch': '0.04752'}
+
+  ── Step 575 Monitor ──
+    Pass@1    : 29.5%
+    Tag rate  : 54.0%  ← emergent from binary reward
+    Avg words : 1310
+{'loss': '-0.08716', 'grad_norm': '0.1484', 'learning_rate': '6.874e-07', 'num_tokens': '1.033e+07', 'completions/mean_length': '2054', 'completions/min_length': '1026', 'completions/max_length': '2808', 'completions/clipped_ratio': '0.325', 'completions/mean_terminated_length': '1706', 'completions/min_terminated_length': '1026', 'completions/max_terminated_length': '2464', 'rewards/reward_fn/mean': '0.2819', 'rewards/reward_fn/std': '0.2838', 'reward': '0.2819', 'reward_std': '0.2838', 'frac_reward_zero_std': '0.4', 'kl': '0.0004735', 'entropy': '0.3057', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '48.9', 'epoch': '0.04835'}
+{'loss': '-0.09849', 'grad_norm': '0.124', 'learning_rate': '6.775e-07', 'num_tokens': '1.051e+07', 'completions/mean_length': '2113', 'completions/min_length': '1217', 'completions/max_length': '2996', 'completions/clipped_ratio': '0.375', 'completions/mean_terminated_length': '1465', 'completions/min_terminated_length': '910.2', 'completions/max_terminated_length': '2216', 'rewards/reward_fn/mean': '0.295', 'rewards/reward_fn/std': '0.3927', 'reward': '0.295', 'reward_std': '0.3927', 'frac_reward_zero_std': '0.2', 'kl': '0.0003938', 'entropy': '0.251', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.48', 'epoch': '0.04918'}
+
+  ── Step 600 Monitor ──
+    Pass@1    : 45.5%
+    Tag rate  : 64.5%  ← emergent from binary reward
+    Avg words : 1212
+{'loss': '-0.08591', 'grad_norm': '0.1934', 'learning_rate': '6.676e-07', 'num_tokens': '1.068e+07', 'completions/mean_length': '1972', 'completions/min_length': '989.2', 'completions/max_length': '2749', 'completions/clipped_ratio': '0.3', 'completions/mean_terminated_length': '1612', 'completions/min_terminated_length': '989.2', 'completions/max_terminated_length': '2318', 'rewards/reward_fn/mean': '0.3887', 'rewards/reward_fn/std': '0.3064', 'reward': '0.3887', 'reward_std': '0.3064', 'frac_reward_zero_std': '0.3', 'kl': '0.0005254', 'entropy': '0.3497', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '48.29', 'epoch': '0.05002'}
+ 42%|███████████████████████████████████████████████████████████████████████▌                                                                                                 | 635/1500 [9:52:45<12:41:50, 52.84s/it]Traceback (most recent call last):
+{'loss': '-0.08225', 'grad_norm': '0', 'learning_rate': '6.575e-07', 'num_tokens': '1.089e+07', 'completions/mean_length': '2530', 'completions/min_length': '1750', 'completions/max_length': '2852', 'completions/clipped_ratio': '0.625', 'completions/mean_terminated_length': '1728', 'completions/min_terminated_length': '1443', 'completions/max_terminated_length': '2070', 'rewards/reward_fn/mean': '0.1831', 'rewards/reward_fn/std': '0.2101', 'reward': '0.1831', 'reward_std': '0.2101', 'frac_reward_zero_std': '0.5', 'kl': '0.000244', 'entropy': '0.1619', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '52.92', 'epoch': '0.05085'}
+{'loss': '-0.0579', 'grad_norm': '0.08008', 'learning_rate': '6.474e-07', 'num_tokens': '1.107e+07', 'completions/mean_length': '2223', 'completions/min_length': '1224', 'completions/max_length': '3033', 'completions/clipped_ratio': '0.4', 'completions/mean_terminated_length': '1777', 'completions/min_terminated_length': '1224', 'completions/max_terminated_length': '2501', 'rewards/reward_fn/mean': '0.27', 'rewards/reward_fn/std': '0.3046', 'reward': '0.27', 'reward_std': '0.3046', 'frac_reward_zero_std': '0.3', 'kl': '0.0004126', 'entropy': '0.2801', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '55.87', 'epoch': '0.05168'}
+
+  ── Step 625 Monitor ──
+    Pass@1    : 30.0%
+    Tag rate  : 50.5%  ← emergent from binary reward
+    Avg words : 1286
+{'loss': '-0.153', 'grad_norm': '0.1611', 'learning_rate': '6.373e-07', 'num_tokens': '1.123e+07', 'completions/mean_length': '1916', 'completions/min_length': '1062', 'completions/max_length': '2747', 'completions/clipped_ratio': '0.325', 'completions/mean_terminated_length': '1562', 'completions/min_terminated_length': '1062', 'completions/max_terminated_length': '2152', 'rewards/reward_fn/mean': '0.4288', 'rewards/reward_fn/std': '0.382', 'reward': '0.4288', 'reward_std': '0.382', 'frac_reward_zero_std': '0.1', 'kl': '0.0004532', 'entropy': '0.2884', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '50.68', 'epoch': '0.05252'}
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 1057, in <module>
+    main()
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 995, in main
+    result = trainer.train(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1094, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1123, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1643, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1509, in _generate
+    prompt_ids, completion_ids, logprobs, extra_fields = self._generate_single_turn(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1311, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2742, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/accelerate/utils/operations.py", line 823, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/accelerate/utils/operations.py", line 811, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 476, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/generic.py", line 917, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/output_capturing.py", line 253, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 411, in forward
+    hidden_states = decoder_layer(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 312, in forward
+    hidden_states = self.post_attention_layernorm(hidden_states)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 1057, in <module>
+    main()
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 995, in main
+    result = trainer.train(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1094, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1123, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1643, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1509, in _generate
+    prompt_ids, completion_ids, logprobs, extra_fields = self._generate_single_turn(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1311, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2742, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/accelerate/utils/operations.py", line 823, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/accelerate/utils/operations.py", line 811, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 476, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/generic.py", line 917, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/output_capturing.py", line 253, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 411, in forward
+    hidden_states = decoder_layer(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 312, in forward
+    hidden_states = self.post_attention_layernorm(hidden_states)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+KeyboardInterrupt

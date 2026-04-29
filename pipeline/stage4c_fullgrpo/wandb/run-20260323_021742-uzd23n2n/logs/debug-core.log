@@ -1,0 +1,15 @@
+{"time":"2026-03-23T02:17:42.315080817-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpvr9qvdk1/port-2469968.txt","pid":2469968,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2026-03-23T02:17:42.315522519-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":2469968}
+{"time":"2026-03-23T02:17:42.315514019-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-2469968-2470188-3491011078/socket","Net":"unix"}}
+{"time":"2026-03-23T02:17:42.494681247-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2026-03-23T02:17:42.499524362-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"uzd23n2n","id":"1(@)"}
+{"time":"2026-03-23T02:17:42.938775759-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"uzd23n2n","id":"1(@)"}
+{"time":"2026-03-23T02:17:48.559280252-04:00","level":"INFO","msg":"connection: cancelling request","id":"1(@)","requestId":"ciqjzmy3oe0e"}
+{"time":"2026-03-23T02:18:18.400779408-04:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(@)"}
+{"time":"2026-03-23T02:18:18.400828851-04:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2026-03-23T02:18:18.400825347-04:00","level":"INFO","msg":"connection: closing","id":"1(@)"}
+{"time":"2026-03-23T02:18:18.400872851-04:00","level":"INFO","msg":"connection: closed successfully","id":"1(@)"}
+{"time":"2026-03-23T02:18:18.40106107-04:00","level":"INFO","msg":"server: listener closed","addr":{"Name":"/tmp/wandb-2469968-2470188-3491011078/socket","Net":"unix"}}
+{"time":"2026-03-23T02:18:19.640184627-04:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(@)"}
+{"time":"2026-03-23T02:18:19.640195663-04:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(@)"}
+{"time":"2026-03-23T02:18:19.640202016-04:00","level":"INFO","msg":"server is closed"}

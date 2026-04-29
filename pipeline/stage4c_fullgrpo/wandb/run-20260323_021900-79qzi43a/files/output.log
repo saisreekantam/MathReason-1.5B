@@ -1,0 +1,236 @@
+  0%|                                                                                                                                                                                        | 0/1500 [00:00<?, ?it/s]Passing `generation_config` together with generation-related arguments=({'disable_compile'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+  7%|███████████▍                                                                                                                                                               | 100/1500 [47:05<10:52:44, 27.97s/it]
+{'loss': '0.05868', 'grad_norm': '0.0008202', 'learning_rate': '4.5e-07', 'num_tokens': '1.162e+05', 'completions/mean_length': '1344', 'completions/min_length': '1048', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7125', 'completions/mean_terminated_length': '719.7', 'completions/min_terminated_length': '598', 'completions/max_terminated_length': '901.4', 'rewards/reward_fn/mean': '0.2', 'rewards/reward_fn/std': '0.2811', 'reward': '0.2', 'reward_std': '0.2811', 'frac_reward_zero_std': '0.4', 'kl': '0.0007141', 'entropy': '0.4765', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.54', 'epoch': '0.0009729'}
+{'loss': '0.04164', 'grad_norm': '0.2578', 'learning_rate': '9.5e-07', 'num_tokens': '2.345e+05', 'completions/mean_length': '1388', 'completions/min_length': '1050', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.6875', 'completions/mean_terminated_length': '759.9', 'completions/min_terminated_length': '600.3', 'completions/max_terminated_length': '885.5', 'rewards/reward_fn/mean': '0.275', 'rewards/reward_fn/std': '0.2567', 'reward': '0.275', 'reward_std': '0.2567', 'frac_reward_zero_std': '0.5', 'kl': '0.0007295', 'entropy': '0.4849', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.45', 'epoch': '0.001946'}
+
+  ── Step 25 Monitor ──
+    Pass@1    : 21.0%
+    Tag rate  : 27.0%  ← emergent from binary reward
+    Avg words : 798
+    ⭐ New best pass@1: 21.0%
+{'loss': '0.02889', 'grad_norm': '0.0008163', 'learning_rate': '9.999e-07', 'num_tokens': '3.531e+05', 'completions/mean_length': '1391', 'completions/min_length': '1058', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7875', 'completions/mean_terminated_length': '732.2', 'completions/min_terminated_length': '608', 'completions/max_terminated_length': '893.5', 'rewards/reward_fn/mean': '0.1625', 'rewards/reward_fn/std': '0.1852', 'reward': '0.1625', 'reward_std': '0.1852', 'frac_reward_zero_std': '0.6', 'kl': '0.0006572', 'entropy': '0.4281', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.34', 'epoch': '0.002919'}
+{'loss': '-0.0009517', 'grad_norm': '0.0007172', 'learning_rate': '9.996e-07', 'num_tokens': '4.759e+05', 'completions/mean_length': '1436', 'completions/min_length': '1212', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.875', 'completions/mean_terminated_length': '408.7', 'completions/min_terminated_length': '311.7', 'completions/max_terminated_length': '492.9', 'rewards/reward_fn/mean': '0.075', 'rewards/reward_fn/std': '0.1334', 'reward': '0.075', 'reward_std': '0.1334', 'frac_reward_zero_std': '0.7', 'kl': '0.0006562', 'entropy': '0.4288', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.47', 'epoch': '0.003891'}
+
+  ── Step 50 Monitor ──
+    Pass@1    : 22.5%
+    Tag rate  : 22.5%  ← emergent from binary reward
+    Avg words : 794
+    ⭐ New best pass@1: 22.5%
+{'loss': '0.06158', 'grad_norm': '0.1943', 'learning_rate': '9.991e-07', 'num_tokens': '5.899e+05', 'completions/mean_length': '1341', 'completions/min_length': '1185', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7', 'completions/mean_terminated_length': '520.9', 'completions/min_terminated_length': '434.9', 'completions/max_terminated_length': '637.5', 'rewards/reward_fn/mean': '0.275', 'rewards/reward_fn/std': '0.2369', 'reward': '0.275', 'reward_std': '0.2369', 'frac_reward_zero_std': '0.5', 'kl': '0.0007104', 'entropy': '0.4656', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.64', 'epoch': '0.004864'}
+{'loss': '0.02889', 'grad_norm': '0.0008354', 'learning_rate': '9.983e-07', 'num_tokens': '7.075e+05', 'completions/mean_length': '1350', 'completions/min_length': '1118', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.65', 'completions/mean_terminated_length': '775.8', 'completions/min_terminated_length': '667.5', 'completions/max_terminated_length': '883.2', 'rewards/reward_fn/mean': '0.2625', 'rewards/reward_fn/std': '0.2521', 'reward': '0.2625', 'reward_std': '0.2521', 'frac_reward_zero_std': '0.4', 'kl': '0.0007649', 'entropy': '0.5203', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '28.1', 'epoch': '0.005837'}
+{'loss': '0.01961', 'grad_norm': '0.0008163', 'learning_rate': '9.973e-07', 'num_tokens': '8.264e+05', 'completions/mean_length': '1380', 'completions/min_length': '1178', 'completions/max_length': '1496', 'completions/clipped_ratio': '0.75', 'completions/mean_terminated_length': '528.7', 'completions/min_terminated_length': '427.8', 'completions/max_terminated_length': '645.4', 'rewards/reward_fn/mean': '0.0875', 'rewards/reward_fn/std': '0.1052', 'reward': '0.0875', 'reward_std': '0.1052', 'frac_reward_zero_std': '0.8', 'kl': '0.0007709', 'entropy': '0.5085', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '28.84', 'epoch': '0.00681'}
+
+  ── Step 75 Monitor ──
+    Pass@1    : 19.0%
+    Tag rate  : 24.0%  ← emergent from binary reward
+    Avg words : 860
+{'loss': '0.01766', 'grad_norm': '0.0008087', 'learning_rate': '9.961e-07', 'num_tokens': '9.51e+05', 'completions/mean_length': '1460', 'completions/min_length': '1333', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.8875', 'completions/mean_terminated_length': '467.2', 'completions/min_terminated_length': '432.8', 'completions/max_terminated_length': '511.2', 'rewards/reward_fn/mean': '0.0875', 'rewards/reward_fn/std': '0.1351', 'reward': '0.0875', 'reward_std': '0.1351', 'frac_reward_zero_std': '0.7', 'kl': '0.0006907', 'entropy': '0.4565', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '29.23', 'epoch': '0.007783'}
+{'loss': '0.0721', 'grad_norm': '0.0007706', 'learning_rate': '9.946e-07', 'num_tokens': '1.066e+06', 'completions/mean_length': '1348', 'completions/min_length': '1013', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7', 'completions/mean_terminated_length': '858.1', 'completions/min_terminated_length': '712.7', 'completions/max_terminated_length': '1027', 'rewards/reward_fn/mean': '0.275', 'rewards/reward_fn/std': '0.3518', 'reward': '0.275', 'reward_std': '0.3518', 'frac_reward_zero_std': '0.2', 'kl': '0.0007174', 'entropy': '0.4495', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '28.09', 'epoch': '0.008756'}
+
+  ── Step 100 Monitor ──
+    Pass@1    : 25.0%
+    Tag rate  : 27.0%  ← emergent from binary reward
+    Avg words : 780
+    ⭐ New best pass@1: 25.0%
+{'loss': '0.03135', 'grad_norm': '0.0009193', 'learning_rate': '9.93e-07', 'num_tokens': '1.185e+06', 'completions/mean_length': '1387', 'completions/min_length': '1121', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.725', 'completions/mean_terminated_length': '633.9', 'completions/min_terminated_length': '521.4', 'completions/max_terminated_length': '751.5', 'rewards/reward_fn/mean': '0.2875', 'rewards/reward_fn/std': '0.2584', 'reward': '0.2875', 'reward_std': '0.2584', 'frac_reward_zero_std': '0.5', 'kl': '0.0006886', 'entropy': '0.4647', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.68', 'epoch': '0.009729'}
+ 13%|██████████████████████▌                                                                                                                                                  | 200/1500 [1:34:00<10:09:31, 28.13s/it]
+{'loss': '0.01812', 'grad_norm': '0.1982', 'learning_rate': '9.911e-07', 'num_tokens': '1.304e+06', 'completions/mean_length': '1389', 'completions/min_length': '1088', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.775', 'completions/mean_terminated_length': '751.8', 'completions/min_terminated_length': '638.1', 'completions/max_terminated_length': '866', 'rewards/reward_fn/mean': '0.1625', 'rewards/reward_fn/std': '0.2386', 'reward': '0.1625', 'reward_std': '0.2386', 'frac_reward_zero_std': '0.5', 'kl': '0.0007226', 'entropy': '0.4832', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.85', 'epoch': '0.0107'}
+{'loss': '0.06908', 'grad_norm': '0.0007973', 'learning_rate': '9.89e-07', 'num_tokens': '1.418e+06', 'completions/mean_length': '1335', 'completions/min_length': '1030', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7', 'completions/mean_terminated_length': '538.3', 'completions/min_terminated_length': '430', 'completions/max_terminated_length': '641.3', 'rewards/reward_fn/mean': '0.175', 'rewards/reward_fn/std': '0.2668', 'reward': '0.175', 'reward_std': '0.2668', 'frac_reward_zero_std': '0.4', 'kl': '0.0007642', 'entropy': '0.5045', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.75', 'epoch': '0.01167'}
+
+  ── Step 125 Monitor ──
+    Pass@1    : 21.5%
+    Tag rate  : 28.5%  ← emergent from binary reward
+    Avg words : 793
+{'loss': '0.02925', 'grad_norm': '0.0008583', 'learning_rate': '9.867e-07', 'num_tokens': '1.536e+06', 'completions/mean_length': '1369', 'completions/min_length': '979', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7375', 'completions/mean_terminated_length': '712.3', 'completions/min_terminated_length': '529', 'completions/max_terminated_length': '882.5', 'rewards/reward_fn/mean': '0.1625', 'rewards/reward_fn/std': '0.2314', 'reward': '0.1625', 'reward_std': '0.2314', 'frac_reward_zero_std': '0.5', 'kl': '0.0007442', 'entropy': '0.5028', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.63', 'epoch': '0.01265'}
+{'loss': '0.08192', 'grad_norm': '0.0006943', 'learning_rate': '9.841e-07', 'num_tokens': '1.652e+06', 'completions/mean_length': '1376', 'completions/min_length': '964.2', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7375', 'completions/mean_terminated_length': '807.2', 'completions/min_terminated_length': '664.2', 'completions/max_terminated_length': '960.9', 'rewards/reward_fn/mean': '0.1875', 'rewards/reward_fn/std': '0.2685', 'reward': '0.1875', 'reward_std': '0.2685', 'frac_reward_zero_std': '0.4', 'kl': '0.0006718', 'entropy': '0.4285', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.89', 'epoch': '0.01362'}
+
+  ── Step 150 Monitor ──
+    Pass@1    : 14.5%
+    Tag rate  : 19.0%  ← emergent from binary reward
+    Avg words : 817
+{'loss': '0.01624', 'grad_norm': '0.0008659', 'learning_rate': '9.814e-07', 'num_tokens': '1.775e+06', 'completions/mean_length': '1442', 'completions/min_length': '1241', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.8875', 'completions/mean_terminated_length': '538.6', 'completions/min_terminated_length': '491.1', 'completions/max_terminated_length': '595.5', 'rewards/reward_fn/mean': '0.1125', 'rewards/reward_fn/std': '0.1906', 'reward': '0.1125', 'reward_std': '0.1906', 'frac_reward_zero_std': '0.6', 'kl': '0.0007325', 'entropy': '0.5015', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.81', 'epoch': '0.01459'}
+{'loss': '0.05912', 'grad_norm': '0.1494', 'learning_rate': '9.784e-07', 'num_tokens': '1.891e+06', 'completions/mean_length': '1374', 'completions/min_length': '1122', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7', 'completions/mean_terminated_length': '916.7', 'completions/min_terminated_length': '821.9', 'completions/max_terminated_length': '1035', 'rewards/reward_fn/mean': '0.175', 'rewards/reward_fn/std': '0.2277', 'reward': '0.175', 'reward_std': '0.2277', 'frac_reward_zero_std': '0.5', 'kl': '0.0006898', 'entropy': '0.4708', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.89', 'epoch': '0.01557'}
+{'loss': '0.06305', 'grad_norm': '0.1309', 'learning_rate': '9.752e-07', 'num_tokens': '2.013e+06', 'completions/mean_length': '1433', 'completions/min_length': '1153', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.85', 'completions/mean_terminated_length': '474.6', 'completions/min_terminated_length': '402.8', 'completions/max_terminated_length': '548.3', 'rewards/reward_fn/mean': '0.1125', 'rewards/reward_fn/std': '0.1759', 'reward': '0.1125', 'reward_std': '0.1759', 'frac_reward_zero_std': '0.6', 'kl': '0.0007189', 'entropy': '0.4703', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.66', 'epoch': '0.01654'}
+
+  ── Step 175 Monitor ──
+    Pass@1    : 13.5%
+    Tag rate  : 21.0%  ← emergent from binary reward
+    Avg words : 814
+{'loss': '0.03631', 'grad_norm': '0.0008354', 'learning_rate': '9.718e-07', 'num_tokens': '2.132e+06', 'completions/mean_length': '1374', 'completions/min_length': '1135', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7875', 'completions/mean_terminated_length': '897.8', 'completions/min_terminated_length': '835.4', 'completions/max_terminated_length': '1016', 'rewards/reward_fn/mean': '0.1125', 'rewards/reward_fn/std': '0.215', 'reward': '0.1125', 'reward_std': '0.215', 'frac_reward_zero_std': '0.5', 'kl': '0.0007391', 'entropy': '0.4903', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.56', 'epoch': '0.01751'}
+{'loss': '0.004311', 'grad_norm': '0.0008545', 'learning_rate': '9.682e-07', 'num_tokens': '2.256e+06', 'completions/mean_length': '1460', 'completions/min_length': '1315', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.8875', 'completions/mean_terminated_length': '461.4', 'completions/min_terminated_length': '414.6', 'completions/max_terminated_length': '507.2', 'rewards/reward_fn/mean': '0.0375', 'rewards/reward_fn/std': '0.08165', 'reward': '0.0375', 'reward_std': '0.08165', 'frac_reward_zero_std': '0.8', 'kl': '0.0006994', 'entropy': '0.4536', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.75', 'epoch': '0.01848'}
+
+  ── Step 200 Monitor ──
+    Pass@1    : 6.5%
+    Tag rate  : 14.5%  ← emergent from binary reward
+    Avg words : 860
+
+    ⚠️  Tag rate <50% at step 200
+       Binary reward alone may not be enough for termination
+       Consider adding: reward += 0.05 if has_solution_tag
+       (small format signal — don't restart, add at step 200)
+
+    ⚠️  Pass rate very low (<8%)
+       Dataset may be too hard despite calibration
+       Check: increase --n-metamath, decrease --n-deepscaler
+{'loss': '0.02245', 'grad_norm': '0.0009766', 'learning_rate': '9.643e-07', 'num_tokens': '2.381e+06', 'completions/mean_length': '1456', 'completions/min_length': '1224', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.8875', 'completions/mean_terminated_length': '520.4', 'completions/min_terminated_length': '473.6', 'completions/max_terminated_length': '568.9', 'rewards/reward_fn/mean': '0.0625', 'rewards/reward_fn/std': '0.1524', 'reward': '0.0625', 'reward_std': '0.1524', 'frac_reward_zero_std': '0.6', 'kl': '0.0007364', 'entropy': '0.4816', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.84', 'epoch': '0.01946'}
+ 16%|██████████████████████████▌                                                                                                                                               | 234/1500 [1:49:48<9:52:46, 28.09s/it]Traceback (most recent call last):
+{'loss': '0.07802', 'grad_norm': '0.000927', 'learning_rate': '9.603e-07', 'num_tokens': '2.493e+06', 'completions/mean_length': '1303', 'completions/min_length': '1002', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.625', 'completions/mean_terminated_length': '709.6', 'completions/min_terminated_length': '552.1', 'completions/max_terminated_length': '844', 'rewards/reward_fn/mean': '0.3625', 'rewards/reward_fn/std': '0.2858', 'reward': '0.3625', 'reward_std': '0.2858', 'frac_reward_zero_std': '0.3', 'kl': '0.0007182', 'entropy': '0.4832', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.9', 'epoch': '0.02043'}
+{'loss': '0.05266', 'grad_norm': '0.3594', 'learning_rate': '9.561e-07', 'num_tokens': '2.601e+06', 'completions/mean_length': '1256', 'completions/min_length': '1021', 'completions/max_length': '1407', 'completions/clipped_ratio': '0.65', 'completions/mean_terminated_length': '706.8', 'completions/min_terminated_length': '570.6', 'completions/max_terminated_length': '837.4', 'rewards/reward_fn/mean': '0.225', 'rewards/reward_fn/std': '0.1961', 'reward': '0.225', 'reward_std': '0.1961', 'frac_reward_zero_std': '0.6', 'kl': '0.0007112', 'entropy': '0.4749', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '26.13', 'epoch': '0.0214'}
+
+  ── Step 225 Monitor ──
+    Pass@1    : 32.0%
+    Tag rate  : 36.5%  ← emergent from binary reward
+    Avg words : 743
+    ⭐ New best pass@1: 32.0%
+{'loss': '0.04784', 'grad_norm': '0.2021', 'learning_rate': '9.516e-07', 'num_tokens': '2.718e+06', 'completions/mean_length': '1357', 'completions/min_length': '1004', 'completions/max_length': '1500', 'completions/clipped_ratio': '0.7', 'completions/mean_terminated_length': '598', 'completions/min_terminated_length': '403.8', 'completions/max_terminated_length': '741.6', 'rewards/reward_fn/mean': '0.2375', 'rewards/reward_fn/std': '0.3056', 'reward': '0.2375', 'reward_std': '0.3056', 'frac_reward_zero_std': '0.3', 'kl': '0.0006983', 'entropy': '0.4713', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '27.77', 'epoch': '0.02238'}
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 1047, in <module>
+    main()
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 985, in main
+    result = trainer.train(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1094, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1123, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1643, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1509, in _generate
+    prompt_ids, completion_ids, logprobs, extra_fields = self._generate_single_turn(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1311, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2742, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/accelerate/utils/operations.py", line 823, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/accelerate/utils/operations.py", line 811, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 476, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/generic.py", line 917, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/output_capturing.py", line 253, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 411, in forward
+    hidden_states = decoder_layer(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 298, in forward
+    hidden_states, _ = self.self_attn(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 218, in forward
+    query_states = self.q_proj(hidden_states).view(hidden_shape).transpose(1, 2)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 1047, in <module>
+    main()
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 985, in main
+    result = trainer.train(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1094, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1123, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1643, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1509, in _generate
+    prompt_ids, completion_ids, logprobs, extra_fields = self._generate_single_turn(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1311, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2742, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/accelerate/utils/operations.py", line 823, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/accelerate/utils/operations.py", line 811, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 476, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/generic.py", line 917, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/utils/output_capturing.py", line 253, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 411, in forward
+    hidden_states = decoder_layer(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 298, in forward
+    hidden_states, _ = self.self_attn(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 218, in forward
+    query_states = self.q_proj(hidden_states).view(hidden_shape).transpose(1, 2)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

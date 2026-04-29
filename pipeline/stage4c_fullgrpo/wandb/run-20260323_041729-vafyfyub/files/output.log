@@ -1,0 +1,69 @@
+  0%|                                                                                                                                                                                        | 0/1500 [00:00<?, ?it/s]Passing `generation_config` together with generation-related arguments=({'disable_compile'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+Traceback (most recent call last):
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 1057, in <module>
+    main()
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 995, in main
+    result = trainer.train(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1094, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1123, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1643, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1509, in _generate
+    prompt_ids, completion_ids, logprobs, extra_fields = self._generate_single_turn(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1311, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2735, in _sample
+    while self._has_unfinished_sequences(this_peer_finished, synced_gpus, device=input_ids.device):
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2561, in _has_unfinished_sequences
+    elif this_peer_finished:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 1057, in <module>
+    main()
+  File "/home/revanth/nlp/scripts/stage4c_fullgrpo/stage4c_fullgrpo.py", line 995, in main
+    result = trainer.train(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1094, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1123, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1643, in _generate_and_score_completions
+    ) = self._generate(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1509, in _generate
+    prompt_ids, completion_ids, logprobs, extra_fields = self._generate_single_turn(prompts)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/trl/trainer/grpo_trainer.py", line 1311, in _generate_single_turn
+    prompt_completion_ids = unwrapped_model.generate(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2535, in generate
+    result = decoding_method(
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2735, in _sample
+    while self._has_unfinished_sequences(this_peer_finished, synced_gpus, device=input_ids.device):
+  File "/home/revanth/miniconda3/envs/nlp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2561, in _has_unfinished_sequences
+    elif this_peer_finished:
+KeyboardInterrupt

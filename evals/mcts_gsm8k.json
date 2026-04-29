@@ -1,0 +1,253 @@
+{
+  "summary": {
+    "n_evaluated": 15,
+    "greedy_acc": 53.33,
+    "maj_acc": 66.67,
+    "mcts_acc": 0.0,
+    "mcts_maj_acc": 33.33,
+    "mcts_gain_vs_greedy": -53.33,
+    "mcts_gain_vs_maj": -66.67
+  },
+  "per_problem": [
+    {
+      "idx": 0,
+      "greedy_correct": 1,
+      "maj_correct": 0,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 1,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.997,
+        "best_answer": "16",
+        "mcts_maj_answer": "18"
+      }
+    },
+    {
+      "idx": 1,
+      "greedy_correct": 1,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 1,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.996,
+        "best_answer": "2",
+        "mcts_maj_answer": "3"
+      }
+    },
+    {
+      "idx": 2,
+      "greedy_correct": 0,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.999,
+        "best_answer": "130000",
+        "mcts_maj_answer": "130000"
+      }
+    },
+    {
+      "idx": 3,
+      "greedy_correct": 1,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 1,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.998,
+        "best_answer": "180",
+        "mcts_maj_answer": "540"
+      }
+    },
+    {
+      "idx": 4,
+      "greedy_correct": 1,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.999,
+        "best_answer": "60",
+        "mcts_maj_answer": "60"
+      }
+    },
+    {
+      "idx": 5,
+      "greedy_correct": 0,
+      "maj_correct": 0,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.999,
+        "best_answer": "Step 1: Determine the number of glasses\nKylar is buying 16 glasses.",
+        "mcts_maj_answer": "100"
+      }
+    },
+    {
+      "idx": 6,
+      "greedy_correct": 1,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 1,
+        "root_visits": 16,
+        "best_value": 0.998,
+        "best_answer": "120",
+        "mcts_maj_answer": "120"
+      }
+    },
+    {
+      "idx": 7,
+      "greedy_correct": 0,
+      "maj_correct": 0,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.999,
+        "best_answer": "40",
+        "mcts_maj_answer": "100minutes"
+      }
+    },
+    {
+      "idx": 8,
+      "greedy_correct": 0,
+      "maj_correct": 0,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.997,
+        "best_answer": "180",
+        "mcts_maj_answer": "180"
+      }
+    },
+    {
+      "idx": 9,
+      "greedy_correct": 1,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 3,
+        "root_visits": 16,
+        "best_value": 0.999,
+        "best_answer": "400",
+        "mcts_maj_answer": "400"
+      }
+    },
+    {
+      "idx": 10,
+      "greedy_correct": 1,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 1,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.999,
+        "best_answer": "180",
+        "mcts_maj_answer": "366"
+      }
+    },
+    {
+      "idx": 11,
+      "greedy_correct": 0,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 5,
+        "root_visits": 16,
+        "best_value": 0.986,
+        "best_answer": "204",
+        "mcts_maj_answer": "204"
+      }
+    },
+    {
+      "idx": 12,
+      "greedy_correct": 0,
+      "maj_correct": 0,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 3,
+        "root_visits": 16,
+        "best_value": 0.998,
+        "best_answer": "90",
+        "mcts_maj_answer": "10"
+      }
+    },
+    {
+      "idx": 13,
+      "greedy_correct": 0,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 1,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.995,
+        "best_answer": "2/3",
+        "mcts_maj_answer": "18"
+      }
+    },
+    {
+      "idx": 14,
+      "greedy_correct": 1,
+      "maj_correct": 1,
+      "mcts_correct": 0,
+      "mcts_maj_correct": 0,
+      "mcts_stats": {
+        "n_simulations": 16,
+        "n_terminals": 16,
+        "tree_depth": 4,
+        "root_visits": 16,
+        "best_value": 0.998,
+        "best_answer": "4",
+        "mcts_maj_answer": "4"
+      }
+    }
+  ]
+}
