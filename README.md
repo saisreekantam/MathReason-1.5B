@@ -87,7 +87,7 @@ MathReason-1.5B/
 
 Extends the model's context window from 4K to 16K tokens using **YaRN RoPE scaling** (zero-shot NTK — no continued pretraining required). This is a prerequisite for Stage 3 distillation, where DeepSeek-R1 reasoning traces average 2,471 tokens of thinking plus problem context.
 
-**Why needed:** Standard Qwen2.5-1.5B has a 4K context limit. R1-style reasoning chains regularly exceed 2,000 tokens. Without this stage, long reasoning traces get truncated mid-solution.
+**Why needed:** Standard Qwen2.5-1.5B has a 4K context limit. R1-style reasoning chains regularly exceed 2,000 tokens and Qwen2.5-1.5B model needs 1024 tokens to attain max thinking capacity. Without this stage, long reasoning traces get truncated mid-solution.
 
 ---
 
@@ -286,10 +286,10 @@ cd MathReason-1.5B
 pip install torch transformers trl==0.29.0 peft datasets accelerate
 
 # Run pipeline in order (each stage takes the previous stage's merged checkpoint as input)
-# Stage 2 — SFT
+# Stage 2 — SFT # will take 15+ hours
 CUDA_VISIBLE_DEVICES=1 python pipeline/stage2_sft/stage2_sft.py
 
-# Stage 3 — Distillation
+# Stage 3 — Distillation 
 CUDA_VISIBLE_DEVICES=1 python pipeline/stage3_distill/stage3_distill_train.py
 
 # Stage 4A — GRPO
